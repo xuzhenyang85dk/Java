@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<script>
+	
+	function function1()
+	{
+		document.getElementById("paragraph1").innerHTML += "<b>Paragraph text changed</b>";
+		document.getElementById("paragraph1").style.backgroundColor = "red";
+		document.getElementById("button1").setAttribute("type", "radio");
+	}
+		
+	</script>
+	
+</head>
+
+<body>
+
+	<h1>JavascriptIntro</h1>
+	
+	<p id="paragraph1">Paragraph text</p>
+	
+	<input id="button1" type="button" value="Change paragraph text" onclick="function1()">
+
+</body>
+
+</html> 
